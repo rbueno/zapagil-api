@@ -7,8 +7,8 @@
     "node": "14.18.1"
   },
   "scripts": {
-    "build": "rimraf dist && tsc",
-    "start": "node ./dist/app.js",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "dev": "nodemon --watch 'src/' --exec 'ts-node server.ts' -e ts"
   },
   "keywords": [
