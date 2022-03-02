@@ -7,7 +7,8 @@
     "node": "14.18.1"
   },
   "scripts": {
-    "build": "tsc",
+    "tsc": "tsc",
+    "build": "yarn tsc",
     "start": "node dist/server.js",
     "dev": "nodemon --watch 'src/' --exec 'ts-node server.ts' -e ts"
   },
