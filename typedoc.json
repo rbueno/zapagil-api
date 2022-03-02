@@ -1,0 +1,8 @@
+{
+    "entryPoints": ["./server.ts"],
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "excludeExternals": true,
+    "includeVersion": false,
+    "out": "docs"
+}
