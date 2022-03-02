@@ -8,7 +8,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build": "yarn tsc",
+    "build": "npm run tsc",
     "start": "node dist/server.js",
     "dev": "nodemon --watch 'src/' --exec 'ts-node server.ts' -e ts"
   },
